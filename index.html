@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Book Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+      body{
+        background: #EFEFEF;
+        
+      }
+      
+    </style>
+  </head>
+  <body>
+   <!--Navbar section-->
+   <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">BookNest </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#fric">Frictional</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#non-fric">Non-Frictional</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#history">History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#drama">Drama</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#poet">Poetry</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <!--Navbar section-->
+
+              <div class="bg-body-tertiary py-3 text-center text-light my-5" style="background-image: url(/images/Main1.jpg); background-size:cover;">
+                <h2>📚Welcome to the Online Book Library</h2>
+                <p>Browse and explore our collection of books.😊</p>
+            </div>
+               <!--Frictional section-->
+            <div class="container-fluid text-white" style="background: #5c5c53;" id="fric">
+              <h2 class="text-center">Frictional Books</h2>
+              <hr class="w-25 mx-auto mb-5">
+              <div class="row mt-5">
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Fric1.jpg" class="card-img-top" alt="Book Image 1" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Da Vinci Code</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Dan Brown</i><br>
+                        <strong>Series :</strong> Robert Langdon</p>
+                        <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                                          <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                              Read More
+                                            </button>
+                                          </h2>
+                                          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                              <strong>Genre :</strong>	Mystery, detective fiction, conspiracy fiction, thriller<br>
+                                              <strong>Publisher :</strong>	Doubleday (US)<br>
+                                              <strong>Publication date :</strong>	March 18, 2003<br>
+                                              <strong>Publication place :</strong>	United States<br>
+                                              <a href="https://en.wikipedia.org/wiki/The_Da_Vinci_Code">Know more..</a>
+                                            </div>
+                                          </div>
+                                        </div>
+                          </div>
+                      <!-- <a href="#" class="btn btn-dark">Go Somewhere</a> -->
+                       
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Fric2.jpg" class="card-img-top" alt="Book Image 2" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Harry Potter and the Half-Blood Prince</h5>
+                      <p class="card-text"><strong>Author :</strong>	<i>J. K. Rowling</i><br>
+                        <strong>Illustrator :</strong>	Jason Cockcroft (first edition)</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Series :</strong>	Harry Potter<br>
+                                            <strong>Genre :</strong>	Fantasy<br>
+                                            <strong>Publisher :</strong> 	Bloomsbury (UK)<br>
+                                            <strong>Publication date :</strong> 	16 July 2005<br>
+                                            <strong> Publication place :</strong>	United Kingdom<br>
+                                            <a href="https://en.wikipedia.org/wiki/Harry_Potter_and_the_Half-Blood_Prince">Know more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="images/Fric4.jpg" class="card-img-top" alt="Book Image 3" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Inheritance: A Novel</h5>
+                      <p class="card-text"> <strong>Author :</strong> <i>Trisha Sakhlecha</i><br>
+                                            <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Penguin Group, 2025<br>
+                                            <strong>Genre :</strong>	Thriller, Fiction, Mystery, Psychological thriller, Suspense<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.goodreads.com/book/show/211953338-the-inheritance">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                
+                <div class="col-12 mt-4 text-center mb-2">
+                 <a href="Friction.html"><button type="button" class="btn btn-outline-light btn-light text-dark ">See More..</button></a> 
+                </div>
+            
+              </div>
+            </div>
+            <!--Frictional section-->
+
+            <!--Non-Frictional section-->
+            <div class="container-fluid my-3" style="background:#bfc7ce;" id="non-fric">
+              <h2 class="text-center pt-3">Non-Frictional Books</h2>
+              <hr class="w-25 mx-auto mb-5">
+              <div class="row mt-5">
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Fric5.jpg" class="card-img-top" alt="Book Image 1" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">The JFK Conspiracy</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Brad Meltzer, Josh Mensch</i><br>
+                                           <strong>Language :</strong> English
+                      </p>
+                                              
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong> Flatiron Books (January 14, 2025)<br>
+                                            <strong>Genre :</strong>	Thriller, Non-fiction, Mystery, Psychological thriller, Suspense<br>
+                                            <strong> Publication place :</strong>	US<br>
+                                            <a href="https://www.amazon.com/JFK-Conspiracy-Secret-Kennedy_and-Failed/dp/1250790573">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Fric6.jpg" class="card-img-top" alt="Book Image 2" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Three Wild Dogs (and the Truth)</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Markus Zusak</i><br>
+                      <strong>Language :</strong> English </p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	 HarperCollins (21 January 2025)<br>
+                                            <strong>Genre :</strong> No-fiction, Animals, Dogs, Biography,Adult<br>
+                                            <strong> Publication place :</strong>	US<br>
+                                            <a href="https://www.amazon.in/Three-Wild-Dogs-Truth-Memoir/dp/0063426072">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Fric7.jpg" class="card-img-top" alt="Book Image 3" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Sinners All Bow</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Kate Winkler Dawson</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong> G.P. Putnam's Sons (January 7, 2025)<br>
+                                            <strong>Genre :</strong> True Crime, Non-fiction, crime, Mystery, Historical<br>
+                                            <a href="https://www.goodreads.com/book/show/211953338-the-inheritance">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                
+                <div class="col-12 mt-4 text-center mb-2">
+                  <a href="Non-friction.html"><button type="button" class="btn btn-dark ">See More..</button></a>
+                </div>
+            
+              </div>
+            </div>
+            <!--Non-Frictional section-->
+            
+            <!--History book section-->
+            <div class="container-fluid my-3 history" style="background:  #F5F5DC;" id="history">
+              <h2 class="text-center pt-3">History Books</h2>
+              <hr class="w-25 mx-auto mb-5">
+              <div class="row mt-5">
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Hist1.jpg" class="card-img-top" alt="Book Image 1" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">An Entirely New History of INDIA</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Francois Gautier</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>		
+                                            October 25, 2020 by Garuda Prakashan<br>
+                                            <strong>Genre :</strong>	History, India, Non-fiction<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.goodreads.com/book/show/55562715-an-entirely-new-history-of-india">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Hist2.jpg" class="card-img-top" alt="Book Image 2" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Itihas (History)</h5>
+                      <p class="card-text"><strong>Author :</strong>  <i>Gyan Chand Yadav</i><br>
+                      <strong>Language :</strong> Hindi</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Penguin Group, 2025<br>
+                                            <strong>Genre :</strong>	History, Non-fiction, thriller, Suspense<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.amazon.in/Itihas-History-Paperback-Chand-Yadav/dp/B07V3F7NXF?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=AL9M0CGNGW0VU">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="images/Hist3.jpg" class="card-img-top" alt="Book Image 3" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">A Brief History of the Present</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Hilal Ahmed</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>India Viking (22 July 2024)<br>
+                                            <strong>Genre :</strong>	History, Non-fictiom, Psychological thriller, Suspense<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.amazon.in/s?k=a+brief+history+of+present&adgrpid=166282106369&gad_source=1&hvadid=702462001412&hvdev=c&hvlocphy=9195007&hvnetw=g&hvqmt=e&hvrand=9820107628729154599&hvtargid=kwd-2357868083474&hydadcr=23607_2222181&mcid=d671c61c52933ce7aa92140a2a2e7545&tag=googinhydr1-21&ref=pd_sl_37bhcq8vwv_e">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                
+                <div class="col-12 mt-4 text-center mb-2">
+                 <a href="History.html"><button type="button" class="btn btn-dark ">See More..</button></a>
+                </div>
+            
+              </div>
+            </div>
+            <!--History section-->
+
+             <!--Drama book section-->
+             <div class="container-fluid my-3 history" style="background:  #2C2C2C; color: #F8F8F8;" id="drama">
+              <h2 class="text-center pt-3">Drama Books</h2>
+              <hr class="w-25 mx-auto mb-5">
+              <div class="row mt-5">
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Drama1.jpg" class="card-img-top" alt="Book Image 1" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Fireman</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Jonathan Dunne</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher :</strong>Jonathan Dunne (10 December 2024)<br>
+                                            <strong>Genre :</strong>	Thriller, Horrer, Mystery, Suspense, Paranormal<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.goodreads.com/book/show/204253885-fireman">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Drama2.jpg" class="card-img-top" alt="Book Image 2" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Alter Ego</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Alex Segura</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseEleven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Flatiron Books (3 December 2024)<br>
+                                            <strong>Genre :</strong>	Thriller, Fiction, Mystery, thriller, Suspense<br>
+                                            <strong> Publication place :</strong>	India<br>
+                                            <a href="https://www.goodreads.com/book/show/203579103-alter-ego">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Drama3.jpg" class="card-img-top" alt="Book Image 3" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Gray After Dark</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Noelle W. Ihli </i> <br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapseTwelve" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Penguin Group, 2025<br>
+                                            <strong>Genre :</strong>	Thriller, Fiction, Mystery, Psychological thriller, Suspense<br>
+                                            <a href="https://www.goodreads.com/book/show/204787816-gray-after-dark">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                
+                <div class="col-12 mt-4 text-center mb-2">
+                 <a href="Drama.html"><button type="button" class="btn btn-light ">See More..</button></a>
+                </div>
+            
+              </div>
+            </div>
+            <!--Drama section-->
+
+             <!--Poetry book section-->
+             <div class="container-fluid my-3 history " style="background: #c0a1dc ; color:#4A4A4A;" id="poet">
+              <h2 class="text-center pt-3">Poetry Books</h2>
+              <hr class="w-25 mx-auto mb-5">
+              <div class="row mt-5">
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Poet1.jpg" class="card-img-top" alt="Book Image 1" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">The Giant Book of Poetry</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>William Roetzheim</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapse13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Level 4 Press Inc; Reprint edition (11 April 2014)<br>
+                                            <strong>Genre :</strong>	Poetry, Anthologies, Classics, Fiction<br>
+                                            <a href="https://www.goodreads.com/book/show/10252754-the-giant-book-of-poetry-ebook">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Poet2.jpg" class="card-img-top" alt="Book Image 2" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Hope Is The Thing</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Johanna Bell</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse14" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapse14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	 Gibbs M. Smith Inc (12 February 2019)<br>
+                                            <strong>Genre :</strong>	Picture Books, Children<br>
+                                            <a href="https://www.goodreads.com/book/show/75550819-hope-is-the-thing">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                <div class="col-md-4 mb-4">
+                  <div class="card">
+                    <img src="/images/Poet3.jpg" class="card-img-top" alt="Book Image 3" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Petals of Healing</h5>
+                      <p class="card-text"><strong>Author :</strong> <i>Anne Roynoe</i><br>
+                      <strong>Language :</strong> English</p>
+                      <div class="accordion" >
+                        <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapse15" aria-expanded="false" aria-controls="collapseTwo">
+                                            Read More
+                                          </button>
+                                        </h2>
+                                        <div id="collapse15" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            <strong>Publisher	:</strong>	Penguin Group, 2025<br>
+                                            <strong>Genre :</strong>	Poetry, Love, Self-love<br>
+                                            <a href="https://www.ibs.it/petals-of-healing-poetry-book-ebook-inglese-anne-raynoe/e/9781959672340?srsltid=AfmBOoqTvZcE1BheW4Bs5tQMq8qK0Pvp1lEghTw7oGUyJ26lZz4FIUhy">Konw more..</a>
+                                          </div>
+                                        </div>
+                                      </div>
+                        </div>
+                      <!-- <a href="#" class="btn btn-dark">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+            
+                
+                <div class="col-12 mt-4 text-center mb-2">
+                  <a href="Poetry.html"><button type="button" class="btn btn-dark ">See More..</button></a>
+                </div>
+            
+              </div>
+            </div>
+            <!--Poetry section-->
+
+            <!--Footer section-->
+            <div class="container-fluid d-flex flex-column justify-content-center align-items-center text-white" id="contact" style="background: rgb(188, 192, 193);">
+              
+              <div class="d-flex mt-5">
+               <a href="https://www.linkedin.com/in/vinayak-kumkar/" target="_blank"><i class="fa-brands fa-linkedin fa-2x me-4"></i></a> 
+               <a href="https://github.com/Vinayak180302" target="_blank"><i class="fa-brands fa-github fa-2x me-4"></i></a> 
+                <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-2x me-4"></i></a>
+              </div>
+        
+              <div class="d-flex mt-4 text-dark">
+                <i class="fa-regular fa-copyright"></i>&nbsp;&nbsp;
+                <p>Copyright VINAYAK. All Rights Reserved</p>
+              </div>
+            </div>
+            <!--Footer section-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
